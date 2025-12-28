@@ -1,0 +1,94 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #4a148c;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.tabs button {
+    padding: 12px 25px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 25px;
+    background: #ddd;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.tabs button.active {
+    background: #7b1fa2;
+    color: white;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background: #7b1fa2;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background: #4a148c;
+}
+
+.complaint-card {
+    background: #f3e5f5;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.complaint-card h3 {
+    margin: 0;
+    color: #6a1b9a;
+}
+
+.hidden {
+    display: none;
+}
